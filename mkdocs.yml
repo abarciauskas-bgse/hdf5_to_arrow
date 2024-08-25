@@ -1,0 +1,18 @@
+site_name: hdf5_to_arrow
+repo_name: abarciauskas-bgse/hdf5_to_arrow
+repo_url: https://github.com/abarciauskas-bgse/hdf5_to_arrow
+site_description: Arrow tables from HDF5 files
+site_author: Development Seed
+# Note: trailing slash recommended with mike:
+# https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/#publishing-a-new-version
+# site_url:
+docs_dir: docs
+nav:
+  - "index.md"
+  - Examples:
+      - examples/ICESat2-and-GEDI.ipynb
+
+plugins:
+  - mkdocs-jupyter:
+      include_source: true
+      ignore: ["**/.ipynb_checkpoints/*.ipynb"]

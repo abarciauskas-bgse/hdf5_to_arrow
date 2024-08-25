@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["hdf5_to_arrow"]
+package-dir = {"" = "src"}
+
+[project]
+name = "hdf5_to_arrow"
+version = "0.0.0"
+authors = [
+  { name="Example Author", email="aimee@developmentseed.org" },
+]
+description = "A small package for creating arrow tables from hdf5 files"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/abarciauskas-bgse/hdf5_to_arrow"
+Issues = "https://github.com/abarciauskas-bgse/hdf5_to_arrow"
+
